@@ -126,8 +126,7 @@ class Tela2 extends StatelessWidget {
               SizedBox(height: 16.0),
               ElevatedButton(
                 onPressed: () {
-                  // Lógica de autenticação pode ser adicionada aqui
-                  // Por enquanto, apenas navegue para a próxima tela
+                  
                   Navigator.pushNamed(context, '/tela3');
                 },
                 child: Text('Login'),
@@ -135,7 +134,7 @@ class Tela2 extends StatelessWidget {
               SizedBox(height: 16.0),
               GestureDetector(
                 onTap: () {
-                  // Implemente a ação para "Esqueceu a senha?"
+                  
                 },
                 child: Text(
                   'Esqueceu a senha?',
@@ -148,7 +147,7 @@ class Tela2 extends StatelessWidget {
               SizedBox(height: 16.0),
               GestureDetector(
                 onTap: () {
-                  // Implemente a ação para "Cadastrar-se"
+                  
                   Navigator.pushNamed(context, '/tela3'); // Navegar para a tela de cadastro
                 },
                 child: Text(
@@ -230,8 +229,7 @@ class Tela3 extends StatelessWidget {
               SizedBox(height: 16.0),
               ElevatedButton(
                 onPressed: () {
-                  // Lógica de cadastro pode ser adicionada aqui
-                  // Por enquanto, apenas navegue para a próxima tela
+                  
                   Navigator.pushNamed(context, '/tela4');
                 },
                 child: Text('Cadastrar'),
@@ -264,13 +262,13 @@ class Tela4 extends StatelessWidget {
             child: ListView(
               children: [
                 ListTile(
-                  contentPadding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 32.0), // Ajuste a altura aqui
+                  contentPadding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 32.0), 
                   leading: Container(
                     width: 64, // Largura da imagem
                     height: 64, // Altura da imagem
                     child: Image.asset(
-                      '../assets/item.jpg', // Substitua 'assets/item1.png' pelo caminho da imagem do Item 1
-                      fit: BoxFit.cover, // Ajuste a imagem para cobrir o container
+                      '../assets/item.jpg', 
+                      fit: BoxFit.cover, 
                     ),
                   ),
                   title: Text('Item 1'),
@@ -284,13 +282,13 @@ class Tela4 extends StatelessWidget {
                     width: 64, // Largura da imagem
                     height: 64, // Altura da imagem
                     child: Image.asset(
-                      '../assets/item.jpg', // Substitua 'assets/item2.png' pelo caminho da imagem do Item 2
-                      fit: BoxFit.cover, // Ajuste a imagem para cobrir o container
+                      '../assets/item.jpg', 
+                      fit: BoxFit.cover, 
                     ),
                   ),
                   title: Text('Item 2'),
                   onTap: () {
-                    // Implemente a ação ao tocar no Item 2
+                    
                   },
                 ),
                 ListTile(
@@ -299,13 +297,13 @@ class Tela4 extends StatelessWidget {
                     width: 64, // Largura da imagem
                     height: 64, // Altura da imagem
                     child: Image.asset(
-                      '../assets/item.jpg', // Substitua 'assets/item3.png' pelo caminho da imagem do Item 3
-                      fit: BoxFit.cover, // Ajuste a imagem para cobrir o container
+                      '../assets/item.jpg', 
+                      fit: BoxFit.cover, 
                     ),
                   ),
                   title: Text('Item 3'),
                   onTap: () {
-                    // Implemente a ação ao tocar no Item 3
+                    
                   },
                 ),
                 ListTile(
@@ -314,13 +312,13 @@ class Tela4 extends StatelessWidget {
                     width: 64, // Largura da imagem
                     height: 64, // Altura da imagem
                     child: Image.asset(
-                      '../assets/item.jpg', // Substitua 'assets/item4.png' pelo caminho da imagem do Item 4
-                      fit: BoxFit.cover, // Ajuste a imagem para cobrir o container
+                      '../assets/item.jpg', 
+                      fit: BoxFit.cover, 
                     ),
                   ),
                   title: Text('Item 4'),
                   onTap: () {
-                    // Implemente a ação ao tocar no Item 4
+                    
                   },
                 ),
               ],
@@ -331,19 +329,19 @@ class Tela4 extends StatelessWidget {
             children: [
               GestureDetector(
                 onTap: () {
-                  // Implemente a ação para o ícone 1
+                  
                 },
                 child: Icon(Icons.home),
               ),
               GestureDetector(
                 onTap: () {
-                  // Implemente a ação para o ícone 2
+                  
                 },
                 child: Icon(Icons.settings),
               ),
               GestureDetector(
                 onTap: () {
-                  // Implemente a ação para o ícone 3
+                  
                 },
                 child: Icon(Icons.exit_to_app),
               ),
